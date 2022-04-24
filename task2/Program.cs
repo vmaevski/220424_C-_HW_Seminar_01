@@ -12,13 +12,13 @@ int b = int.Parse(s_b);
 string s_c = Console.ReadLine();
 int c = int.Parse(s_c);
 
-if (a<b)
+if (a < b)
 {
-    a=b;
+    a = b;
 }
-if (a<c)
+if (a < c)
 {
-    a=c;
+    a = c;
 }
 Console.Write("-> ");
 Console.WriteLine(a);
